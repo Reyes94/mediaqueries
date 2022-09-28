@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Librería</title>
+    <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="assets/css/normalize.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <nav>
+            <div class="menu-tittle">
+                <i class="fa-solid fa-book p-05"></i>
+                <h3>Libros de Sagas</h3>
+            </div>
+            <div class="nav-links">
+                <ul>
+                    <li>Inicio</li>
+                    <li>Catálogo</li>
+                    <li>Ofertas</li>
+                    <li>Contacto</li>
+                </ul>
+            </div>
+            <div class="dropdown">
+                <i class="fa-solid fa-bars p-05"></i>
+            </div>
+        </nav>
+        <section>
+            <div class="search">
+                <p>Ordenar Por:</p>
+                <select>
+                <option value="precio">Precio</option>
+                </select>
+            </div>
+        </section>
+        <main>
+            <div class="cards">
+                <div class="card">
+                    <picture>
+                        <source srcset="assets/img/1_md.png" media="(min-width:576px)">
+                        <img src="assets/img/1_sm.png" alt="">
+                    </picture>
+                    <div class="card_content">
+                        <p>Juego de Tronos: I</p>
+                    </div>
+                    <div>
+                      <button>Ver más</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <picture>
+                        <source srcset="assets/img/2_md.png" media="(min-width:576px)">
+                        <img src="assets/img/2_sm.png" alt="">
+                    </picture>
+                    <div class="card_content">
+                        <p>Juego de Tronos: II</p>
+                    </div>
+                    <div>
+                      <button>Ver más</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <picture>
+                        <source srcset="assets/img/3_md.png" media="(min-width:576px)">
+                        <img src="assets/img/3_sm.png" alt="">
+                    </picture>
+                    <div class="card_content">
+                        <p>Juego de Tronos: III</p>
+                    </div>
+                    <div>
+                      <button>Ver más</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <picture>
+                        <source srcset="assets/img/4_md.png" media="(min-width:576px)">
+                        <img src="assets/img/4_sm.png" alt="">
+                    </picture>
+                    <div class="card_content">
+                        <p>Juego de Tronos: IV</p>
+                    </div>
+                    <div>
+                      <button>Ver más</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <picture>
+                        <source srcset="assets/img/5_md.png" media="(min-width:576px)">
+                        <img src="assets/img/5_sm.png" alt="">
+                    </picture>
+                    <div class="card_content">
+                        <p>Juego de Tronos: V</p>
+                    </div>
+                    <div>
+                      <button>Ver más</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <picture>
+                        <source srcset="assets/img/6_md.png" media="(min-width:576px)">
+                        <img src="assets/img/6_sm.png" alt="">
+                    </picture>
+                    <div class="card_content">
+                        <p>Harry Potter: I</p>
+                    </div>
+                    <div>
+                      <button>Ver más</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <picture>
+                        <source srcset="assets/img/7_md.png" media="(min-width:576px)">
+                        <img src="assets/img/7_sm.png" alt="">
+                    </picture>
+                    <div class="card_content">
+                        <p>Harry Potter: II</p>
+                    </div>
+                    <div>
+                      <button>Ver más</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <picture>
+                        <source srcset="assets/img/8_md.png" media="(min-width:576px)">
+                        <img src="assets/img/8_sm.png" alt="">
+                    </picture>
+                    <div class="card_content">
+                        <p>Harry Potter: III</p>
+                    </div>
+                    <div>
+                      <button>Ver más</button>
+                    </div>
+                </div>
+            </div>
+            <div class="pages">
+                <ul>
+                    <li><a href=""> << </a></li>
+                    <li><a href=""> 1 </a></li>
+                    <li><a href=""> 2 </a></li>
+                    <li><a href=""> 3 </a></li>
+                    <li><a href=""> >> </a></li>
+                </ul>
+            </div>
+        </main>
+        <footer>
+            <div>
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-instagram"></i>
+            </div>
+            <div>
+                <p>Todos los derechos reservados</p>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
